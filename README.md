@@ -8,5 +8,17 @@ The main motivation was to become a command line ninja! that's why i got rid of 
 
 ------
 ## Dependancies
-There are whole lot of dependancies to all of this... i will be uploading it on daily basis... i am too sleepy right now... i should probably stop typing... STOP!!!
-Ok Good night!
+--------
+|Package Name | What it Does? | How to Install?|
+|-------------|---------------|----------------|
+|i3wm         | The basic core of my setup|` sudo apt install i3`|
+--------
+## To Dos
+- [x] Customized urxvt.
+- [x] Installed Terminal based file manager with file rendering capability.
+- [x] Installed Terminal based music player.
+- [x] Fixed the volume up/down issue.
+- [x] Fixed the transparency issue.
+- [ ] vimrc needs customization.
+- [ ] Need to fix screen brightness controls.
+--------
