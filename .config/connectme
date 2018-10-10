@@ -1,0 +1,10 @@
+#!/bin/bash
+
+nmcli dev wifi
+
+read -p "Please Enter the ESSID:" wifi
+read -s -p "Please Enter the Passwword for ${wifi}:" pass
+
+echo " "
+echo "Connecting to ${wifi}"
+nmcli dev wifi connect $wifi password $pass
