@@ -12,6 +12,8 @@ The main motivation was to become a command line ninja! that's why i got rid of 
 |Package Name | What it Does? | How to Install?|
 |-------------|---------------|----------------|
 |i3wm         | The basic core of my setup|` sudo apt install i3`|
+|Ranger       | My file browser with image rendering capability |`sudo apt install ranger`|
+|Rofi         | MacOS inspired file finder (replacement for dmenu | `sudo apt install rofi`|
 --------
 ## To Dos
 - [x] Customized urxvt.
@@ -19,6 +21,6 @@ The main motivation was to become a command line ninja! that's why i got rid of 
 - [x] Installed Terminal based music player.
 - [x] Fixed the volume up/down issue.
 - [x] Fixed the transparency issue.
-- [ ] vimrc needs customization.
+- [x] vimrc needs customization.
 - [ ] Need to fix screen brightness controls.
 --------
