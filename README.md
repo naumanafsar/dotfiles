@@ -1,6 +1,6 @@
 # Dotfiles
 These are all my dotfiles to my own customized rice Ubuntu 18.04 LTS. Here's a screenshot:
-![Bank](https://raw.githubusercontent.com/naumanafsar/dotfiles/master/imgs/myrice.png)
+![Bank](https://raw.githubusercontent.com/naumanafsar/dotfiles/master/imgs/screenshot.png)
 
 ------
 ## Motivation
