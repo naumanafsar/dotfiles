@@ -15,6 +15,7 @@ The main motivation was to become a command line ninja! that's why i got rid of 
 |Ranger       | My file browser with image rendering capability |`sudo apt install ranger`|
 |Rofi         | MacOS inspired file finder (replacement for dmenu) | `sudo apt install rofi`|
 |Compton      | Fix the transparency issue | `sudo apt install compton` |
+|i3gaps       | For gaps between the windows | `sudo apt install i3gaps`|
 --------
 ## To Dos
 - [x] Fixed the Wallpaper issue.
