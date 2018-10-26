@@ -32,5 +32,6 @@
 
 " Spell check set to F6
 map <F6> :setlocal spell! spelllang=en_us<CR>
-" NERD Tree File Explorer
 map <C-n> :NERDTreeToggle<CR>
+au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+" Turning Vim into an IDE
