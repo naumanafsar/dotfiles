@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file=$(readlink -f "$1")
+base="${file%.*}"
+
+case "$file" in 
+    *\.cpp) g++ "$1" -o "${base}"  && "${base}" ;;
+    *\.py) python3 "$file" ;;
+esac
