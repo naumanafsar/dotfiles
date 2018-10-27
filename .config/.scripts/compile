@@ -1,9 +1,13 @@
 #!/bin/bash
 
+# A simple script that compile my Cpp & Py files
+# Invoke through .vimrc
+
+
 file=$(readlink -f "$1")
-base="${file%.*}"
+out="${file%.*}"
 
 case "$file" in 
-    *\.cpp) g++ "$1" -o "${base}"  && "${base}" ;;
+    *\.cpp) g++ "$1" -o "${out}"  && "${out}" ;;
     *\.py) python3 "$file" ;;
 esac
