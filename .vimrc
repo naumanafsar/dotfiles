@@ -1,7 +1,6 @@
 " Some Basics
     set number
-"    Set relativenumber
-"   xecute pathogen#infect()
+    set relativenumber
     execute pathogen#infect()
     set showcmd
     syntax on
@@ -18,11 +17,14 @@
     set splitbelow
     set splitright
 
+" Map leader key to space
+    let mapleader = "\<Space>"
+
 " Interpret .md etc files as markdown
     let g:vimwiki_ext2syntax = {'.Rmd': 'markdown', '.rmd': 'markdown','.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 
 " Formating  {
-    set nowrap        " wrap long lines
+   " set nowrap        " wrap long lines
     set autoindent    " Indent at the same level of prev line
     set shiftwidth=4  " Use indent of 4 Spaces
     set expandtab     " Tabs are spaces
@@ -30,8 +32,27 @@
     set softtabstop=4 " let backspace delete indent
 " }
 
+" Copy the whole file into the register
+    map <leader>ca ggVG"*y
+
+" Copy selected text to system clipboard (requires gvim installed):
+	vnoremap <C-c> "*Y :let @+=@*<CR>
+	map <C-p> "+P
+
 " Spell check set to F6
-map <F6> :setlocal spell! spelllang=en_us<CR>
-map <C-n> :NERDTreeToggle<CR>
-au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+    map <F5> :setlocal spell! spelllang=en_us<CR>
+
+" A Beautifull file explorer
+    map <C-n> :NERDTreeToggle<CR>
+
+" Map the Esc key to Capslock!
+    au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 " Turning Vim into an IDE
+
+   " Compile document
+        map <F6> :!compile %<c-r>%<CR>
+    " Out file
+        map <leader>p :!out<c-r>%<CR><CR>
+" My Latex shortcuts
+    autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
+    autocmd FileType tex inoremap ,ct \center{}
