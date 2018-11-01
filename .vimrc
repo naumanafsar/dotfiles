@@ -7,6 +7,9 @@
     set bg=dark
     set nocompatible
     filetype plugin on
+    syntax on
+    set encoding=utf-8
+
 "   set cursorline
     set wildmenu        " Show list instead of just completing!
     set showmatch       " Show Matching
@@ -22,6 +25,9 @@
 
 " Interpret .md etc files as markdown
     let g:vimwiki_ext2syntax = {'.Rmd': 'markdown', '.rmd': 'markdown','.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
+
+" Guides
+    inoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
 
 " Formating  {
    " set nowrap        " wrap long lines
@@ -44,6 +50,8 @@
 
 " A Beautifull file explorer
     map <C-n> :NERDTreeToggle<CR>
+" Source .vimrc
+    map <F9> !source ~/.vimrc<CR>
 
 " Map the Esc key to Capslock!
     au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
@@ -56,3 +64,12 @@
 " My Latex shortcuts
     autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
     autocmd FileType tex inoremap ,ct \center{}
+    autocmd FileType tex inoremap ,c  <Esc>I%
+
+" My cpp shortcuts
+    autocmd FileType cpp inoremap ,c <Esc>I//
+    autocmd FileType cpp inoremap ,uc <Esc>I<Esc>xxx
+    autocmd FileType cpp inoremap ,f for(int i = 0; i < <++>; i++)<Space>{<Enter><++><Enter>}
+    au bufnewfile *.cpp 0r /home/elliot/.vim/cpp_header.temp
+"  Comments for Python
+    autocmd FileType py inoremap ,c <Esc>I//
