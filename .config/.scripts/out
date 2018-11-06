@@ -1,0 +1,5 @@
+#!/bin/bash
+
+file=${1%.*}
+
+setsid evince "$file".pdf >/dev/null 2>&1 & 
