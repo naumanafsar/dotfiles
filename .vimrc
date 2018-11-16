@@ -7,6 +7,7 @@
     set bg=dark
     set nocompatible
     filetype plugin on
+    filetype plugin indent on
     syntax on
     set encoding=utf-8
 
@@ -19,6 +20,7 @@
 " Split open at at the bottom and right!
     set splitbelow
     set splitright
+
 
 " Map leader key to space
     let mapleader = "\<Space>"
@@ -50,17 +52,15 @@
 
 " A Beautifull file explorer
     map <C-n> :NERDTreeToggle<CR>
-" Source .vimrc
-    map <F9> !source ~/.vimrc<CR>
 
 " Map the Esc key to Capslock!
     au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 " Turning Vim into an IDE
 
    " Compile document
-        map <F6> :!compile %<c-r>%<CR>
+    map <F6> :!compile <c-r>%<CR><CR>
     " Out file
-        map <leader>p :!out<c-r>%<CR><CR>
+    map <leader>p :!out <c-r>%<CR><CR>
 " My Latex shortcuts
     autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
     autocmd FileType tex inoremap ,ct \center{}
@@ -70,6 +70,8 @@
     autocmd FileType cpp inoremap ,c <Esc>I//
     autocmd FileType cpp inoremap ,uc <Esc>I<Esc>xxx
     autocmd FileType cpp inoremap ,f for(int i = 0; i < <++>; i++)<Space>{<Enter><++><Enter>}
+    autocmd FileType cpp inoremap ,if if(<++>)<Space>{<Enter><++><Enter>}
     au bufnewfile *.cpp 0r /home/elliot/.vim/cpp_header.temp
+    au bufnewfile *.c 0r /home/elliot/.vim/c_header.temp
 "  Comments for Python
-    autocmd FileType py inoremap ,c <Esc>I//
+    autocmd FileType py inoremap ,c <Esc>I#
