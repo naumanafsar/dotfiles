@@ -30,7 +30,7 @@ case "$file" in
 	*\.tex) textype "$file" ;;
 	*\.md) pandoc "$file" --pdf-engine=xelatex -o "$base".pdf ;;
 	*config.h) make && sudo make install ;;
-        *\.c) cc "$file" -o "$base" && "$base" ;;
+    *\.c) cc "$file" -o "$base" && "$base" ;;
 	*\.cpp) g++ "$file" -o "$base" && "$base" ;;
     *\.py) python "$file" ;;
 	*\.go) go run "$file" ;;
