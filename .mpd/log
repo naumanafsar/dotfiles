@@ -102,3 +102,1223 @@ Nov 06 15:14 : exception: All audio outputs are disabled
 Nov 06 15:15 : client: [3] closed
 Nov 06 15:15 : client: [4] opened from 127.0.0.1:45020
 Nov 06 15:15 : client: [4] closed
+Nov 06 15:20 : client: [5] opened from 127.0.0.1:46460
+Nov 06 15:20 : player: played "mp3/Ya Qurban, Khumariyaan, Coke Studio Season 11, Episode 7-_YnjQ3MjuPg.opus"
+Nov 06 15:20 : exception: Not playing
+Nov 06 15:20 : client: [5] closed
+Nov 06 15:21 : client: [6] opened from 127.0.0.1:46788
+Nov 06 15:21 : client: [6] closed
+Nov 06 15:43 : client: [7] opened from 127.0.0.1:48716
+Nov 06 16:47 : client: [7] closed
+Nov 06 17:03 : player: played "mp3/6-Hour Mozart Piano Classical Music Studying Playlist Mix by JaBig Great Beautiful Long Pieces.mp3"
+Home directory not accessible: Permission denied
+Nov 06 21:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 21:51 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Home directory not accessible: Permission denied
+Nov 06 21:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 21:51 : avahi: Service 'Music Player' successfully established.
+Nov 06 21:51 : client: [0] opened from 127.0.0.1:47160
+Home directory not accessible: Permission denied
+Nov 06 21:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 21:52 : exception: Failed to open audio output
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 21:53 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:53 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 21:53 : player: played "mp3/6-Hour Mozart Piano Classical Music Studying Playlist Mix by JaBig Great Beautiful Long Pieces.mp3"
+Nov 06 21:53 : exception: Not playing
+Nov 06 21:53 : exception: Not playing
+Nov 06 21:53 : exception: Not playing
+Nov 06 21:53 : client: [0] closed
+Nov 06 21:53 : client: [1] opened from 127.0.0.1:47162
+Home directory not accessible: Permission denied
+Nov 06 21:53 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:53 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 21:53 : client: [1] closed
+Nov 06 21:53 : client: [2] opened from 127.0.0.1:47164
+Nov 06 21:53 : client: [2] closed
+Nov 06 21:58 : client: [3] opened from 127.0.0.1:47472
+Nov 06 21:58 : client: [3] closed
+Nov 06 21:58 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Nov 06 21:58 : client: [4] opened from 127.0.0.1:47474
+Home directory not accessible: Permission denied
+Nov 06 21:58 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 21:58 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 21:58 : client: [4] closed
+Nov 06 22:11 : player: played "hans-zimmer/Dunkirk - The Mole - Hans Zimmer (Official Video)-wlXjP59jZCM.opus"
+Home directory not accessible: Permission denied
+Nov 06 22:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:17 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Home directory not accessible: Permission denied
+Nov 06 22:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:17 : avahi: Service 'Music Player' successfully established.
+Nov 06 22:17 : client: [0] opened from 127.0.0.1:35350
+Home directory not accessible: Permission denied
+Nov 06 22:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:17 : player: played "hans-zimmer/Dunkirk - The Mole - Hans Zimmer (Official Video)-wlXjP59jZCM.opus"
+Home directory not accessible: Permission denied
+Nov 06 22:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:17 : player: played "hans-zimmer/Hans Zimmer - Interstellar Theme (Live in Prague)-FkmWxOfsPuE.opus"
+Nov 06 22:18 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Nov 06 22:18 : client: [0] closed
+Nov 06 22:18 : client: [1] opened from 127.0.0.1:35354
+Home directory not accessible: Permission denied
+Nov 06 22:18 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:18 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:18 : client: [1] closed
+Nov 06 22:19 : client: [2] opened from 127.0.0.1:35460
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:20 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:20 : client: [2] closed
+Nov 06 22:20 : client: [3] opened from 127.0.0.1:35478
+Nov 06 22:20 : client: [3] closed
+Nov 06 22:24 : client: [4] opened from 127.0.0.1:35482
+Nov 06 22:25 : client: [4] closed
+Nov 06 22:25 : client: [5] opened from 127.0.0.1:35484
+Home directory not accessible: Permission denied
+Nov 06 22:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:27 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:27 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:27 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:27 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:28 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:28 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:51 : client: [6] opened from 127.0.0.1:36300
+Home directory not accessible: Permission denied
+Nov 06 22:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 22:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 22:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 22:51 : client: [6] closed
+Home directory not accessible: Permission denied
+Nov 06 23:01 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 23:01 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 23:01 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 23:01 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 23:01 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 23:01 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 23:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 23:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 23:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 23:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 23:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 23:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 06 23:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 06 23:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 06 23:25 : client: [5] closed
+Nov 07 00:21 : client: [7] opened from 127.0.0.1:38028
+Home directory not accessible: Permission denied
+Nov 07 00:21 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:21 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:25 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:25 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 00:25 : client: [7] closed
+Nov 07 00:26 : client: [8] opened from 127.0.0.1:38058
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 00:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 00:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 00:26 : client: [8] closed
+Nov 07 00:46 : player: played "mp3/6-Hour Mozart Piano Classical Music Studying Playlist Mix by JaBig Great Beautiful Long Pieces.mp3"
+Home directory not accessible: Permission denied
+Nov 07 09:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 09:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 09:06 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Home directory not accessible: Permission denied
+Nov 07 09:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 09:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 09:06 : avahi: Service 'Music Player' successfully established.
+Nov 07 09:06 : client: [0] opened from 127.0.0.1:56086
+Home directory not accessible: Permission denied
+Nov 07 09:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 09:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 09:06 : client: [0] closed
+Nov 07 09:06 : client: [1] opened from 127.0.0.1:56088
+Home directory not accessible: Permission denied
+Nov 07 09:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 09:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 09:06 : client: [1] closed
+Nov 07 11:15 : client: [2] opened from 127.0.0.1:58804
+Home directory not accessible: Permission denied
+Nov 07 11:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 11:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 07 11:47 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 11:47 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 11:47 : client: [2] closed
+Nov 07 13:44 : client: [3] opened from 127.0.0.1:33566
+Home directory not accessible: Permission denied
+Nov 07 13:44 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 07 13:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 07 14:06 : client: [3] closed
+Home directory not accessible: Permission denied
+Nov 08 13:12 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 13:12 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Home directory not accessible: Permission denied
+Nov 08 13:12 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 13:12 : avahi: Service 'Music Player' successfully established.
+Nov 08 13:12 : client: [0] opened from 127.0.0.1:50784
+Home directory not accessible: Permission denied
+Nov 08 13:12 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 13:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 13:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 13:17 : client: [0] closed
+Nov 08 13:17 : client: [1] opened from 127.0.0.1:50790
+Nov 08 13:17 : client: [1] closed
+Nov 08 14:31 : client: [2] opened from 127.0.0.1:52908
+Home directory not accessible: Permission denied
+Nov 08 14:31 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:31 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:31 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:31 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:31 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:31 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:32 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:32 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:32 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:32 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:32 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:32 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 14:32 : player: played "Bohemian.mp3"
+Nov 08 14:32 : client: [2] closed
+Nov 08 14:32 : client: [3] opened from 127.0.0.1:52940
+Home directory not accessible: Permission denied
+Nov 08 14:32 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:32 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:32 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:32 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:32 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:32 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:32 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:32 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 14:32 : client: [3] closed
+Nov 08 14:33 : client: [4] opened from 127.0.0.1:52958
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:33 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:33 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 14:34 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 14:34 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 14:36 : client: [4] closed
+Nov 08 14:36 : client: [5] opened from 127.0.0.1:52960
+Nov 08 14:36 : client: [5] closed
+Nov 08 15:45 : client: [6] opened from 127.0.0.1:53006
+Home directory not accessible: Permission denied
+Nov 08 15:45 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:45 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 15:49 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:49 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 15:49 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:49 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 15:50 : client: [6] closed
+Nov 08 15:50 : client: [7] opened from 127.0.0.1:53478
+Home directory not accessible: Permission denied
+Nov 08 15:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 15:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 15:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 15:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 15:51 : client: [7] closed
+Nov 08 15:51 : client: [8] opened from 127.0.0.1:53676
+Home directory not accessible: Permission denied
+Nov 08 15:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 15:52 : client: [8] closed
+Nov 08 15:55 : client: [9] opened from 127.0.0.1:54120
+Home directory not accessible: Permission denied
+Nov 08 15:55 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:55 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 15:58 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 15:58 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 15:58 : client: [9] closed
+Nov 08 17:35 : client: [10] opened from 127.0.0.1:57838
+Home directory not accessible: Permission denied
+Nov 08 17:36 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 17:36 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 17:39 : client: [11] opened from 127.0.0.1:58072
+Home directory not accessible: Permission denied
+Nov 08 17:39 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 17:39 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 17:40 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 17:40 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 17:42 : client: [10] closed
+Nov 08 17:43 : client: [11] closed
+Nov 08 18:06 : player: played "mp3/Ya Qurban, Khumariyaan, Coke Studio Season 11, Episode 7-_YnjQ3MjuPg.opus"
+Home directory not accessible: Permission denied
+Nov 08 20:49 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 20:49 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 20:49 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Home directory not accessible: Permission denied
+Nov 08 20:49 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 20:49 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 20:49 : avahi: Service 'Music Player' successfully established.
+Nov 08 20:49 : client: [0] opened from 127.0.0.1:44120
+Home directory not accessible: Permission denied
+Nov 08 20:49 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 20:49 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 20:49 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 20:49 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 20:49 : client: [0] closed
+Nov 08 21:53 : client: [1] opened from 127.0.0.1:46224
+Home directory not accessible: Permission denied
+Nov 08 21:53 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 21:53 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 08 21:53 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 08 21:53 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 08 21:54 : client: [1] closed
+Nov 08 22:29 : update: removing pushto mp3 new nat/1533290493674.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1531491080823.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1531491077660.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1531491074331.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1531491070081.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1531463580157.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1520505489429.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1520048705264.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1519639315118.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1518867812833.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1515665933926.mp4
+Nov 08 22:29 : update: removing pushto mp3 new nat/1512367873336.mp4
+Home directory not accessible: Permission denied
+Nov 09 18:40 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:40 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 09 18:40 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Home directory not accessible: Permission denied
+Nov 09 18:40 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:40 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 09 18:40 : avahi: Service 'Music Player' successfully established.
+Nov 09 18:40 : client: [0] opened from 127.0.0.1:55238
+Home directory not accessible: Permission denied
+Nov 09 18:40 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:40 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 18:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 18:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 09 18:54 : client: [0] closed
+Nov 09 20:01 : client: [1] opened from 127.0.0.1:39762
+Home directory not accessible: Permission denied
+Nov 09 20:01 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 20:01 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 09 20:01 : client: [1] closed
+Nov 09 20:02 : client: [2] opened from 127.0.0.1:40126
+Nov 09 20:02 : client: [2] closed
+Nov 09 20:02 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Nov 09 20:02 : client: [3] opened from 127.0.0.1:40194
+Home directory not accessible: Permission denied
+Nov 09 20:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 20:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 20:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 20:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 20:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 20:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 20:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 20:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 09 20:03 : client: [3] closed
+Nov 09 20:06 : client: [4] opened from 127.0.0.1:41072
+Nov 09 20:06 : client: [4] closed
+Nov 09 20:06 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Nov 09 20:06 : client: [5] opened from 127.0.0.1:41082
+Home directory not accessible: Permission denied
+Nov 09 20:07 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 20:07 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 09 20:07 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 09 20:07 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 09 20:07 : client: [5] closed
+Home directory not accessible: Permission denied
+Nov 10 17:12 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 17:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 10 17:12 : exception: Failed to access /home/elliot/Music/music: Too many levels of symbolic links
+Home directory not accessible: Permission denied
+Nov 10 17:12 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 17:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 10 17:12 : avahi: Service 'Music Player' successfully established.
+Nov 10 17:12 : client: [0] opened from 127.0.0.1:48358
+Home directory not accessible: Permission denied
+Nov 10 17:12 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 17:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 10 17:12 : client: [0] closed
+Nov 10 21:39 : client: [1] opened from 127.0.0.1:36136
+Home directory not accessible: Permission denied
+Nov 10 21:39 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 21:39 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 10 21:39 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 21:39 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 10 21:39 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 21:39 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 10 21:39 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 21:39 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 10 21:39 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 21:39 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 10 21:39 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 10 21:39 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 10 21:39 : client: [1] closed
+Nov 10 23:17 : update: removing mp3/WWE NXT Skys the Limit ► Sasha Banks 5th Theme Song.mp3
+Nov 10 23:20 : update: removing mp3/6-Hour Mozart Piano Classical Music Studying Playlist Mix by JaBig Great Beautiful Long Pieces.mp3
+Nov 10 23:20 : update: removing mp3/Taylor Swift - Picture To Burn_纯音频文件_Audio-only output.MP3
+Nov 10 23:20 : update: removing mp3/Taylor Swift - Our Song - YouTube_纯音频文件_Audio-only output.MP3
+Nov 10 23:20 : update: removing mp3/Taylor Swift - Blank Space - YouTube_纯音频文件_Audio-only output.MP3
+Nov 10 23:20 : update: removing mp3/Tajdar E Haram Amjad Sabri Shahi Hasan Full Qawwali [Songsx.Pk].mp3
+Nov 10 23:20 : update: removing mp3/Sorry Justin Bieber Cover [Songsx.Pk].mp3
+Nov 10 23:20 : update: removing mp3/Shinsuke Nakamura - The Rising Sun (Official Theme).mp3
+Nov 10 23:20 : update: removing mp3/Shakira - Try Everything (Official Video)_纯音频文件_Audio-only output.MP3
+Nov 10 23:20 : update: removing mp3/This Is What You Came For - Calvin Harris, Rihanna (320kbps).mp3
+Nov 10 23:20 : update: removing mp3/ZAYN - PILLOWTALK - YouTube_纯音频文件_Audio-only output.MP3
+Nov 10 23:20 : update: removing mp3/Ya Qurban, Khumariyaan, Coke Studio Season 11, Episode 7-_YnjQ3MjuPg.opus
+Nov 10 23:20 : update: removing mp3/White Collar- Must Have Done Something Good - YouTube_纯音频文件_Audio-only output.MP3
+Nov 10 23:20 : update: added mp3/This Is What You Came For Rihanna.mp3
+Nov 10 23:20 : update: added mp3/The Rising Sun.mp3
+Nov 10 23:20 : update: added mp3/Sorry Justin Bieber.mp3
+Nov 10 23:20 : update: added mp3/Taylor Swift - Blank Space.MP3
+Nov 10 23:20 : update: added mp3/Taylor Swift - Picture To Burn.MP3
+Nov 10 23:20 : update: added mp3/Taylor Swift - Our Song.MP3
+Nov 10 23:20 : update: added mp3/Tajdar E Haram Amjad Sabri.mp3
+Nov 10 23:20 : update: added mp3/Six Hour Mozart Classical Music.mp3
+Nov 10 23:20 : update: added mp3/White Collar- Must Have Done Something Good.MP3
+Nov 10 23:20 : update: added mp3/Ya Qurban, Khumariyaan, Coke Studio.opus
+Nov 10 23:20 : update: added mp3/Shakira - Try Everything.MP3
+Nov 10 23:20 : update: added mp3/ZAYN - PILLOWTALK.MP3
+Nov 10 23:21 : update: removing hans-zimmer/Hans Zimmer - Interstellar Theme (Live in Prague)-FkmWxOfsPuE.opus
+Nov 10 23:21 : update: removing hans-zimmer/Dunkirk - The Mole - Hans Zimmer (Official Video)-wlXjP59jZCM.opus
+Nov 10 23:21 : update: removing hans-zimmer/Hans Zimmer - Mountains (Interstellar Soundtrack)-o_Ay_iDRAbc.mp3
+Nov 10 23:21 : update: added hans-zimmer/Dunkirk - The Mole.opus
+Nov 10 23:21 : update: added hans-zimmer/Hans Zimmer - Mountains (Interstellar Soundtrack).mp3
+Nov 10 23:21 : update: added hans-zimmer/Hans Zimmer - Interstellar Theme.opus
+Nov 11 00:00 : client: [2] opened from 127.0.0.1:39774
+Home directory not accessible: Permission denied
+Nov 11 00:00 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 00:00 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 00:00 : client: [2] closed
+Nov 11 00:00 : client: [3] opened from 127.0.0.1:39776
+Home directory not accessible: Permission denied
+Nov 11 00:01 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 00:01 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 00:01 : client: [3] closed
+Nov 11 00:02 : client: [4] opened from 127.0.0.1:39778
+Home directory not accessible: Permission denied
+Nov 11 00:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 00:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 00:02 : client: [4] closed
+Nov 11 00:02 : client: [5] opened from 127.0.0.1:39780
+Home directory not accessible: Permission denied
+Nov 11 00:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 00:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 00:02 : client: [5] closed
+Nov 11 00:02 : client: [6] opened from 127.0.0.1:39782
+Home directory not accessible: Permission denied
+Nov 11 00:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 00:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 00:02 : client: [6] closed
+Nov 11 00:04 : client: [7] opened from 127.0.0.1:39892
+Home directory not accessible: Permission denied
+Nov 11 00:04 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 00:04 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 11 00:04 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 00:04 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 00:04 : client: [7] closed
+Nov 11 02:46 : client: [8] opened from 127.0.0.1:40968
+Home directory not accessible: Permission denied
+Nov 11 02:47 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 02:47 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 02:47 : client: [8] closed
+Nov 11 02:48 : client: [9] opened from 127.0.0.1:40976
+Home directory not accessible: Permission denied
+Nov 11 02:48 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 02:48 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 02:48 : client: [9] closed
+Nov 11 02:48 : client: [10] opened from 127.0.0.1:40978
+Home directory not accessible: Permission denied
+Nov 11 02:48 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 02:48 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 02:48 : client: [10] closed
+Nov 11 02:48 : client: [11] opened from 127.0.0.1:40980
+Home directory not accessible: Permission denied
+Nov 11 02:48 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 02:48 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 02:48 : client: [11] closed
+Nov 11 03:09 : player: played "mp3/La Gazza Ladra - Gioacchino Rossini.mp3"
+Home directory not accessible: Permission denied
+Nov 11 12:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 11 12:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 12:03 : avahi: Service 'Music Player' successfully established.
+Nov 11 12:03 : client: [0] opened from 127.0.0.1:40074
+Home directory not accessible: Permission denied
+Nov 11 12:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 11 12:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 12:13 : client: [0] closed
+Nov 11 12:18 : player: played "mp3/La Gazza Ladra - Gioacchino Rossini.mp3"
+Home directory not accessible: Permission denied
+Nov 11 12:18 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:18 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 12:24 : player: played "mp3/La Gazza Ladra - Gioacchino Rossini.mp3"
+Home directory not accessible: Permission denied
+Nov 11 12:24 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:24 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 12:25 : client: [1] opened from 127.0.0.1:40340
+Nov 11 12:27 : client: [1] closed
+Nov 11 12:48 : client: [2] opened from 127.0.0.1:40804
+Home directory not accessible: Permission denied
+Nov 11 12:48 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:48 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 12:48 : client: [2] closed
+Nov 11 12:48 : client: [3] opened from 127.0.0.1:40806
+Nov 11 12:50 : player: played "mp3/La Gazza Ladra - Gioacchino Rossini.mp3"
+Home directory not accessible: Permission denied
+Nov 11 12:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 12:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 12:53 : client: [3] closed
+Nov 11 14:42 : update: added hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.webm
+Nov 11 14:48 : update: removing hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.webm
+Nov 11 14:48 : update: added hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus
+Nov 11 15:19 : player: played "mp3/La Gazza Ladra - Gioacchino Rossini.mp3"
+Home directory not accessible: Permission denied
+Nov 11 15:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 15:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 11 15:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 15:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 15:26 : avahi: Service 'Music Player' successfully established.
+Nov 11 15:26 : client: [0] opened from 127.0.0.1:52566
+Home directory not accessible: Permission denied
+Nov 11 15:26 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 11 15:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 11 15:26 : client: [0] closed
+Nov 11 21:54 : player: played "mp3/La Gazza Ladra - Gioacchino Rossini.mp3"
+Home directory not accessible: Permission denied
+Nov 13 13:59 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 13:59 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 13:59 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 13:59 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 13:59 : avahi: Service 'Music Player' successfully established.
+Nov 13 13:59 : client: [0] opened from 127.0.0.1:60036
+Home directory not accessible: Permission denied
+Nov 13 13:59 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 13:59 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:00 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:00 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:07 : client: [0] closed
+Nov 13 14:10 : client: [1] opened from 127.0.0.1:60444
+Home directory not accessible: Permission denied
+Nov 13 14:10 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:10 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:10 : client: [1] closed
+Nov 13 14:10 : client: [2] opened from 127.0.0.1:60448
+Home directory not accessible: Permission denied
+Nov 13 14:10 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:10 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:12 : client: [2] closed
+Nov 13 14:14 : client: [3] opened from 127.0.0.1:60540
+Nov 13 14:14 : client: [3] closed
+Nov 13 14:16 : avahi: Failed to add service _mpd._tcp: Local name collision
+Home directory not accessible: Permission denied
+Nov 13 14:16 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:16 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:16 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:16 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:16 : client: [0] opened from 127.0.0.1:52120
+Home directory not accessible: Permission denied
+Nov 13 14:16 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:16 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:16 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:16 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:17 : client: [0] closed
+Nov 13 14:17 : client: [1] opened from 127.0.0.1:52122
+Home directory not accessible: Permission denied
+Nov 13 14:17 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:17 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:19 : client: [1] closed
+Nov 13 14:21 : client: [2] opened from 127.0.0.1:52290
+Home directory not accessible: Permission denied
+Nov 13 14:21 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:21 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:21 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:21 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:21 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:21 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:21 : client: [2] closed
+Nov 13 14:22 : client: [3] opened from 127.0.0.1:52304
+Home directory not accessible: Permission denied
+Nov 13 14:22 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:22 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:22 : client: [3] closed
+Nov 13 14:24 : client: [4] opened from 127.0.0.1:52370
+Home directory not accessible: Permission denied
+Nov 13 14:24 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:24 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:24 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:24 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:28 : client: [4] closed
+Nov 13 14:28 : client: [5] opened from 127.0.0.1:52412
+Home directory not accessible: Permission denied
+Nov 13 14:28 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:28 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:28 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:28 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:28 : client: [5] closed
+Nov 13 14:29 : client: [6] opened from 127.0.0.1:52414
+Home directory not accessible: Permission denied
+Nov 13 14:29 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 14:29 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:29 : client: [6] closed
+Nov 13 14:40 : exception: Failed to commit /home/elliot/.mpd/state: File exists
+Nov 13 14:40 : player: played "mp3/La Gazza Ladra - Gioacchino Rossini.mp3"
+Nov 13 14:40 : player: played "mp3/The Best of Mozart.mp3"
+Home directory not accessible: Permission denied
+Nov 13 14:42 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:42 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:42 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:42 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:42 : avahi: Service 'Music Player' successfully established.
+Nov 13 14:42 : client: [0] opened from 127.0.0.1:42764
+Home directory not accessible: Permission denied
+Nov 13 14:42 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:42 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:42 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:42 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:42 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:42 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:42 : client: [0] closed
+Nov 13 14:43 : client: [1] opened from 127.0.0.1:42766
+Home directory not accessible: Permission denied
+Nov 13 14:43 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:43 : client: [1] closed
+Nov 13 14:43 : client: [2] opened from 127.0.0.1:42768
+Home directory not accessible: Permission denied
+Nov 13 14:44 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:44 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:44 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:48 : client: [2] closed
+Nov 13 14:49 : client: [3] opened from 127.0.0.1:42924
+Home directory not accessible: Permission denied
+Nov 13 14:49 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:49 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:49 : client: [3] closed
+Nov 13 14:51 : client: [4] opened from 127.0.0.1:42928
+Home directory not accessible: Permission denied
+Nov 13 14:51 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 13 14:51 : exception: Failed to enable output "MPD PulseAudio Stream" [pulse]
+Nov 13 14:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 14:51 : client: [4] closed
+Nov 13 14:52 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:02 : config: option 'mixer_control' on line 22 was not recognized
+Home directory not accessible: Permission denied
+Nov 13 16:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:02 : avahi: Service 'Music Player' successfully established.
+Nov 13 16:02 : client: [0] opened from 127.0.0.1:48388
+Home directory not accessible: Permission denied
+Nov 13 16:02 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:02 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:02 : client: [0] closed
+Nov 13 16:09 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:09 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:09 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:16 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:16 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:16 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:24 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:24 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:24 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:31 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:31 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:31 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:38 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:38 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:38 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:46 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:46 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:46 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 16:53 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 16:53 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 16:53 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:00 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:00 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:00 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:08 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:08 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:08 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:15 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:23 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:23 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:23 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:30 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:30 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:30 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:37 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:37 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:37 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:45 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:45 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:45 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:52 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 17:59 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 17:59 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 17:59 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:07 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:07 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:07 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:14 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:14 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:14 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:22 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:22 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:22 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:29 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:29 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:29 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:36 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:36 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:36 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:44 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:44 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:51 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:51 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:51 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 18:58 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 18:58 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 18:58 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:06 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:13 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:13 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:21 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:21 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:21 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:28 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:28 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:28 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:35 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:35 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:35 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:43 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:43 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:50 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:50 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:50 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 19:57 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 19:57 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 19:57 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 20:05 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 20:05 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 20:05 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 20:12 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 20:12 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 20:12 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 20:19 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 20:19 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 20:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 20:27 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 20:27 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 20:27 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 13 20:34 : player: played "hans-zimmer/Hans Zimmer - Pandora. Study Music.-e8A7I2xoox8.opus"
+Home directory not accessible: Permission denied
+Nov 13 20:34 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 13 20:34 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 19 20:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 19 20:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 19 20:03 : config: option 'mixer_control' on line 22 was not recognized
+Home directory not accessible: Permission denied
+Nov 19 20:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 19 20:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 19 20:03 : avahi: Service 'Music Player' successfully established.
+Nov 19 20:03 : client: [0] opened from 127.0.0.1:49456
+Home directory not accessible: Permission denied
+Nov 19 20:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 19 20:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 19 20:03 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 19 20:03 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 19 20:03 : client: [0] closed
+Nov 19 20:04 : client: [1] opened from 127.0.0.1:49458
+Home directory not accessible: Permission denied
+Nov 19 20:04 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 19 20:04 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 19 20:04 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 19 20:04 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 19 20:04 : client: [1] closed
+Nov 20 06:12 : player: played "hans-zimmer/Hans Zimmer - Interstellar Theme.opus"
+Home directory not accessible: Permission denied
+Nov 20 12:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 20 12:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 20 12:15 : config: option 'mixer_control' on line 22 was not recognized
+Home directory not accessible: Permission denied
+Nov 20 12:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 20 12:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 20 12:15 : avahi: Service 'Music Player' successfully established.
+Nov 20 12:15 : client: [0] opened from 127.0.0.1:38796
+Home directory not accessible: Permission denied
+Nov 20 12:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 20 12:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 20 12:15 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 20 12:15 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 20 12:15 : client: [0] closed
+Nov 20 12:15 : client: [1] opened from 127.0.0.1:38880
+Nov 20 12:15 : client: [1] closed
+Nov 20 16:29 : player: played "hans-zimmer/Hans Zimmer - Interstellar Theme.opus"
+Home directory not accessible: Permission denied
+Nov 24 00:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 24 00:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 24 00:06 : config: option 'mixer_control' on line 22 was not recognized
+Home directory not accessible: Permission denied
+Nov 24 00:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 24 00:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 24 00:06 : avahi: Service 'Music Player' successfully established.
+Nov 24 00:06 : client: [0] opened from 127.0.0.1:55618
+Home directory not accessible: Permission denied
+Nov 24 00:06 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 24 00:06 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 24 00:06 : client: [0] closed
+Nov 24 00:34 : player: played "hans-zimmer/Hans Zimmer - Interstellar Theme.opus"
+Home directory not accessible: Permission denied
+Nov 30 17:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 30 17:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 30 17:52 : config: option 'mixer_control' on line 22 was not recognized
+Home directory not accessible: Permission denied
+Nov 30 17:52 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 30 17:52 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 30 17:52 : avahi: Service 'Music Player' successfully established.
+Nov 30 17:54 : player: played "hans-zimmer/Hans Zimmer - Interstellar Theme.opus"
+Home directory not accessible: Permission denied
+Nov 30 23:43 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 30 23:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 30 23:43 : config: option 'mixer_control' on line 22 was not recognized
+Home directory not accessible: Permission denied
+Nov 30 23:43 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 30 23:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 30 23:43 : avahi: Service 'Music Player' successfully established.
+Nov 30 23:43 : client: [0] opened from 127.0.0.1:37496
+Home directory not accessible: Permission denied
+Nov 30 23:43 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 30 23:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 30 23:43 : player: played "hans-zimmer/Hans Zimmer - Interstellar Theme.opus"
+Home directory not accessible: Permission denied
+Nov 30 23:43 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 30 23:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Nov 30 23:43 : exception: Failed to enable output "pulse audio" [pulse]
+Nov 30 23:43 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 30 23:43 : client: [0] closed
+Nov 30 23:52 : player: played "mp3/taylor swift-you belong with me.mp3"
+Home directory not accessible: Permission denied
+Dec 03 17:44 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 17:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 03 17:44 : config: option 'mixer_control' on line 22 was not recognized
+Home directory not accessible: Permission denied
+Dec 03 17:44 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 17:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 03 17:44 : avahi: Service 'Music Player' successfully established.
+Dec 03 17:44 : client: [0] opened from 127.0.0.1:39376
+Home directory not accessible: Permission denied
+Dec 03 17:44 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 17:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Dec 03 17:44 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 17:44 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 03 17:45 : client: [0] closed
+Dec 03 19:22 : client: [1] opened from 127.0.0.1:48216
+Home directory not accessible: Permission denied
+Dec 03 19:22 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 19:22 : exception: nested: pa_context_connect() has failed: Connection refused
+Home directory not accessible: Permission denied
+Dec 03 19:22 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 19:22 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 03 19:22 : client: [1] closed
+Dec 03 19:26 : client: [2] opened from 127.0.0.1:48362
+Home directory not accessible: Permission denied
+Dec 03 19:26 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 19:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 03 19:26 : player: played "mp3/taylor swift-white horse.mp3"
+Home directory not accessible: Permission denied
+Dec 03 19:26 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 19:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 03 19:27 : client: [2] closed
+Dec 03 19:27 : client: [3] opened from 127.0.0.1:48364
+Home directory not accessible: Permission denied
+Dec 03 19:27 : exception: Failed to enable output "pulse audio" [pulse]
+Dec 03 19:27 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 03 19:27 : client: [3] closed
+Dec 04 07:03 : config: option 'mixer_control' on line 22 was not recognized
+Dec 04 07:03 : avahi: Service 'Music Player' successfully established.
+Dec 04 07:03 : client: [0] opened from 127.0.0.1:60274
+Home directory not accessible: Permission denied
+Dec 04 07:03 : client: [0] closed
+Dec 04 07:03 : player: played "mp3/taylor swift-you belong with me.mp3"
+Dec 04 10:54 : config: option 'mixer_control' on line 22 was not recognized
+Dec 04 10:54 : avahi: Service 'Music Player' successfully established.
+Dec 04 10:54 : client: [0] opened from 127.0.0.1:44444
+Home directory not accessible: Permission denied
+Dec 04 10:54 : client: [0] closed
