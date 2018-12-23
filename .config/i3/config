@@ -18,17 +18,24 @@ set $term i3-sensible-terminal
 # Seting fonts
 font pango:System San Francisco Display 10
 # Basic Seting for i3-gaps
-for_window [class="^.*"] border pixel 2
-gaps inner 15
-gaps outer 15
+for_window [class="^.*"] border pixel 3
+gaps inner 10
+gaps outer 0 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+# Start the terminal
+bindsym $mod+Return exec $term
 
-# Locking i3
+# #-------For Scratchpad and floating windows --------##
+for_window [title="math"] floating enable
+for_window [title="math"] resize 625 400
+for_window [title="math"] move scratchpad 
+for_window [title="math"] border pixel 5                                                   
+#lock i3
 bindsym $mod+x exec i3lock
 
-# start a terminal
-bindsym $mod+Return exec $term
+#exec --no-startup-id $term -name math -e $term 
+bindsym $mod+u [title="math"] scratchpad show; [title="math"] move position center 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -158,11 +165,11 @@ set $text-color 		#f3f4f5
 set $inactive-text-color 	#676E7D
 set $urgent-bg-color 		#E53935
 
-#				border			backroung		  text		       indicator
-client.focused    		$bg-color     		$bg-color    		$text-color		#00ff00
-client.unfocused		$inactive-bg-color	$inactive-bg-color	$inactive-text-color	#00ff00
-client.focused_inactive		$inactive-bg-color	$inactive-bg-color	$inactive-text-color	#00ff00
-client.urgent			$urgent-bg-color	$urgent-bg-color	$text-color		#00ff00
+#				    border			backroung		                    text		        indicator
+client.focused      #f39c12		    $bg-color     	$bg-color    		$text-color		        #f39c12
+client.unfocused		        $inactive-bg-color	$inactive-bg-color	$inactive-text-color	#00ff00
+client.focused_inactive		    $inactive-bg-color	$inactive-bg-color	$inactive-text-color	#00ff00
+client.urgent			        $urgent-bg-color	$urgent-bg-color	$text-color		        #00ff00
 
  
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -188,18 +195,17 @@ bindsym $mod+shift+o exec $term -e ranger
 bindsym $mod+d exec rofi -show run
 exec_always feh --bg-scale ~/.config/wallpaper.png
 exec_always compton
+bindsym $mod+shift+w exec wal -i ~/Pictures/Wallpapers/wallhaven-23977.jpg
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+# Screen brightness controls with notification
+bindsym XF86MonBrightnessUp exec "light -A 5; "  #notify-send 'brightness up'"  increase screen brightness with notification
+bindsym XF86MonBrightnessDown exec "light -U 5;" # notify-send 'brightness down'"  decrease screen brightness with notification
 
-# Touchpad controls
-bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
@@ -208,4 +214,4 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Start cmus terminal music player
-bindsym $mod+c exec cmus
+bindsym $mod+c exec cmus -e $term
