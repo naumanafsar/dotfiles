@@ -32,7 +32,7 @@
 URxvt.intensityStyles:	false
 URxvt.background:       [70]#000000
 URxvt.depth:		32
-URxvt.font: 		xft:monospace:size=11
+URxvt.font: 		xft:Hack Nerd Font Mono:size=12
 URxvt.scrollBar:	false
 URxvt.cursorColor:	white
 
@@ -48,6 +48,7 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 !! resize-font
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
+
 !! Matcher
 URxvt.url-launcher:	linkhandler
 URxvt.matcher.button:	1
