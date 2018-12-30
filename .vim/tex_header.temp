@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\title{<++>}
+
+\author{Nauman Afsar}
+
+\begin{document}
+
+\maketitle
+
+<++>
+
+\end{document}
