@@ -31,8 +31,9 @@ for_window [title="math"] floating enable
 for_window [title="math"] resize 625 400
 for_window [title="math"] move scratchpad 
 for_window [title="math"] border pixel 5                                                   
+
 #lock i3
-bindsym $mod+x exec i3lock
+bindsym $mod+x exec i3lockscreen
 
 #exec --no-startup-id $term -name math -e $term 
 bindsym $mod+u [title="math"] scratchpad show; [title="math"] move position center 
@@ -90,9 +91,9 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "Terminals"
-set $ws2 "Firefox"
-set $ws3 "Music"
+set $ws1 "1: "
+set $ws2 "2: "
+set $ws3 "3: "
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
