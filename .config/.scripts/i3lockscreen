@@ -1,0 +1,16 @@
+#!/bin/sh
+
+rm -f ~/temp/locked.png
+
+# If `imagemagick` is not installed, use a blank screen.
+[ -f /usr/bin/convert ] &&
+scrot -m -z ~/temp/base.png &&
+pgrep -x dunst && notify-send -i ~/.config/pix/locked.png "Locking computer..." &&
+convert ~/temp/base.png -blur 0x8 ~/temp/locked.png
+
+# Pause music (mocp, mpd and send the pause key to all mpv videos):
+mocp -P >/dev/null 2>&1
+mpc pause >/dev/null 2>&1
+pauseallmpv >/dev/null 2>&1
+
+i3lock -e -f -c 000000 -i ~/temp/locked.png
