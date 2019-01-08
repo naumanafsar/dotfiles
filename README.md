@@ -17,6 +17,7 @@ The main motivation was to become a command line ninja! that's why i got rid of 
 |Compton      | Fix the transparency issue | `sudo apt install compton` |
 |i3gaps       | For gaps between the windows | `sudo apt install i3gaps`|
 | feh         | To set a wallpaper | `sudo apt install feh`|
+|i3blocks     | Status bar | `sudo apt install i3blocks`|
 |NERDTree | A beautifull file explorer for vim | Check NERDTree github |
 --------
 ## To Dos
@@ -27,5 +28,5 @@ The main motivation was to become a command line ninja! that's why i got rid of 
 - [x] Fixed the volume up/down issue.
 - [x] Fixed the transparency issue.
 - [x] vimrc needs customization.
-- [ ] Need to fix screen brightness controls.
+- [x] Need to fix screen brightness controls.
 --------
