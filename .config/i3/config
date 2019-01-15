@@ -37,10 +37,10 @@ floating_modifier       $mod
 for_window [title="video0 - mpv"] floating enable
 for_window [title="video0 - mpv"] sticky enable
 
-bindysm $mod+c          exec --no-startup-id bash /home/elliot/.config/.scripts/camtoggle
+bindysm $mod+c          exec --no-startup-id /home/elliot/.config/.scripts/camtoggle &
 
 # Screen Record
-bindsym $mod+q exec --no-startup-id /home/.config/.scripts/screenrec
+bindsym $mod+q          exec --no-startup-id /home/elliot/.config/.scripts/screenrec
 
 # Start the terminal
 bindsym $mod+Return     exec $term
@@ -100,16 +100,17 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # takes screenshot of the window
-bindsym $mod+Print          exec --no-startup-id /usr/bin/scrot
+bindsym $mod+Print          exec --no-startup-id /usr/bin/scrot; notify-send "Taking Screenshot"
 bindsym $mod+Shift+Print    exec --no-startup-id scrot -s
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: "
 set $ws2 "2: "
-set $ws3 "3: "
-set $ws4 "4"
-set $ws5 "5"
+#set $ws3 "3: "
+set $ws3 "3: 🎧"
+set $ws4 "4: 📂"
+set $ws5 "5:🖌️"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
