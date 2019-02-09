@@ -1,8 +1,10 @@
 export ZSH="/home/elliot/.oh-my-zsh"
 
 # #--- zsh Theme ---# #
-ZSH_THEME="mh"
-HISTSIZE=20000  #Infinite History
+ZSH_THEME="garyblessington"
+
+HISTSIZE=9000000  #Infinite History
+SAVEHIST=9000000
 
 plugins=(
   git
@@ -22,6 +24,7 @@ alias gp="ps aux | grep "
 alias vi="vim"
 alias wt="wal --theme"
 alias ctx="rm *.log *.aux"  #Clear all LaTeX logs files
+alias v="nvim"
 
 # #--- Networks ---# #
 alias sa="nmcli connection show --active"
@@ -40,6 +43,8 @@ alias us="cd ~/Documents/unistuff"
 alias tv="cd ~/Videos/tv"
 alias eb="cd ~/Documents/ebooks"
 alias ff="cd ~/Documents/dotfiles"
+alias pc="cd ~/Pictures"
+alias rmd="cd ~/Documents/rmarkdown"
 
 # #--- Change Files ---# #
 alias cvi="vim ~/.vimrc"
@@ -54,9 +59,8 @@ alias czh="vim ~/.zshrc"
 
 # #--- Paths ---# #
 source /home/elliot/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="/home/elliot/Documents/scripts:$PATH"
-export PATH="/home/elliot/Documents/scripts/basics:$PATH"
 export PATH="/home/elliot/anaconda2/bin:$PATH"
+export PATH="/usr/local/texlive/2017/bin/x86_64-linux:$PATH"
 export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH="/home/elliot/.config/.scripts:$PATH"
 export PATH="/usr/share/i3blocks:$PATH"
