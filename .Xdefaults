@@ -1,3 +1,8 @@
+*.boldFont:
+*.geometry:60x10
+*.internalBorder:20
+*.letterSpace: -2
+
 *foreground: #00cc00
 *foreground_bold: #a8a19f
 *cursor: #a8a19f
@@ -34,7 +39,7 @@ URxvt.background:       [70]#000000
 URxvt.depth:		32
 URxvt.font: 		xft:Hack Nerd Font Mono:size=12
 URxvt.scrollBar:	false
-URxvt.cursorColor:	white
+URxvt.cursorColor:	gray
 
 !! Extensions
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
@@ -53,6 +58,7 @@ URxvt.resize-font.bigger:	C-Up
 URxvt.url-launcher:	linkhandler
 URxvt.matcher.button:	1
 
+rofi.theme:         dmenu.rasi
 rofi.color-enabled:	true
 rofi.color-window:	#000, #000, #000
 rofi.color-normal:	#111, #819396, #222, #008ed4, #ffffff
