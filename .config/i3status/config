@@ -1,0 +1,51 @@
+general {
+	output_format = "i3bar"
+	markup = pango
+	colors = false
+	interval = 5
+}
+
+#order += "wireless wlp2s0"
+order += "ethernet enp1s0"
+order += "disk /"
+order += "volume master"
+order += "battery 1"
+order += "tztime date"
+order += "tztime time"
+
+#wireless wlp2s0 {
+#	format_up = " %essid"
+#	format_down = " No wifi"
+#}
+
+
+disk "/" {
+	format = "<span background='#95788B'>    </span><span background='#C1C8D1'>  $HOME/%avail  </span>"
+}
+
+battery 1 {
+	format = "<span background='#C77B89'>    </span><span background='#C1C8D1'>  %status: %percentage  </span>"
+	status_chr = "Charging"
+	status_bat = "Discharging"
+	status_unk = "Unknown"
+	status_full = "Full"
+	low_threshold = 10
+}
+
+tztime date {
+	format = "<span background='#939CAD'>    </span><span background='#C1C8D1'> %time </span>"
+	format_time = "%a %-d %b"
+}
+
+tztime time {
+	format = "<span background='#9D8B9C'>    </span><span background='#C1C8D1'> %time </span>"
+	format_time = "%H:%M"
+}
+
+volume master {
+	format = "<span background='#6A738A'>    </span><span background='#C1C8D1'>  %volume  </span>"
+	format_muted = "<span background='#6A738A'>    </span><span background='#C1C8D1'>  Muted  </span>"
+	device = "default"
+	mixer = "Master"
+	mixer_idx = 0
+} # see "man i3status" for documentation.
