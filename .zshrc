@@ -30,7 +30,8 @@ alias v="nvim"
 alias sa="nmcli connection show --active"
 alias dn="nmcli con down id "
 alias ccat="highlight --out-format=ansi" # Cat but with syntax highlighting
-alias yta="youtube-dl --add-metadata -xic"
+alias yta="youtube-dl --add-metadata -x --audio-format "mp3""
+alias yt="youtube-dl -f "best[height=720]" "
 alias rn="sudo /etc/init.d/networking restart"
 
 # #--- Change Directories ---# #
@@ -67,3 +68,8 @@ export PATH="/usr/share/i3blocks:$PATH"
 export PATH="~/.local/bin:$PATH"
 export BROWSER="firefox"
 export TERMINAL="urxvt"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
