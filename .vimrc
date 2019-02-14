@@ -10,17 +10,26 @@
     filetype plugin indent on
     syntax on
     set encoding=utf-8
-
 "   set cursorline
     set wildmenu        " Show list instead of just completing!
     set showmatch       " Show Matching
+    set foldmethod=manual
     set incsearch       " Search as you type
     set ignorecase      " Case insensitve search
+    set nofoldenable    " Make sure no lines are folded
 
 " Split open at at the bottom and right!
     set splitbelow
     set splitright
 
+" Disable auto commenting on new lines
+    autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Shortcutting split navigation, saving a keypress:
+	map <C-h> <C-w>h
+	map <C-j> <C-w>j
+	map <C-k> <C-w>k
+    map <C-l> <C-w>l
 
 " Map leader key to space
     let mapleader = "\<Space>"
@@ -45,11 +54,14 @@
 
 " Copy selected text to system clipboard (requires gvim installed):
 	vnoremap <C-c> "*Y :let @+=@*<CR>
-	map <C-p> "+P
+
+" Copy to System's Clipboard
+    vnoremap <leader>Y "*y
+    vnoremap <leader>y "+Y
 
 " Spell check set to F6
     map <F5> :setlocal spell! spelllang=en_us<CR>
-
+    
 " A Beautifull file explorer
     map <C-n> :NERDTreeToggle<CR>
 
@@ -57,21 +69,45 @@
     au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 " Turning Vim into an IDE
 
-   " Compile document
-    map <F6> :!compile <c-r>%<CR><CR>
-    " Out file
-    map <leader>p :!out <c-r>%<CR><CR>
-" My Latex shortcuts
+" Compile document
+    map <F6> :w! \| !compile <c-r>%<CR>
+
+" Out file
+    map <leader>o :!out <c-r>%<CR><CR>
+
+" Clear .tex build files when i leave VIM
+    autocmd VimLeave *.tex !texclear %
+
+"  LaTeX 
     autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
+    autocmd FileType tex inoremap ,toc \tableofcontents<Enter>
     autocmd FileType tex inoremap ,ct \center{}
     autocmd FileType tex inoremap ,c  <Esc>I%
+    autocmd FileType tex inoremap ,cl \begin{<++>}<Enter><Enter>\end{<++>}
+    autocmd FileType tex inoremap ,lx \LaTeX
+    autocmd FileType tex inoremap ,ab \begin{abstract}<Enter><++><Enter>\end{abstract}
+    autocmd FileType tex inoremap ,s \section{<++>}<Enter><++>
+    autocmd FileType tex inoremap ,sc \subsection{<++>}<Enter><++>
+    autocmd FileType tex inoremap ,l \label{<++>}
+    autocmd FileType tex inoremap ,f \begin{figure}<Enter>\includegraphics{<++>}<Enter>\end{figure}
+    autocmd FileType tex inoremap ,t \begin{table}<Enter>\centering<Enter>\begin{tabular}{<++>}<Enter><++><Enter>\end{tabular}<Enter>\end{table}
+    autocmd FileType tex inoremap ,li \begin{enumerate}<Enter>\item<++><Enter>\end{enumerate}
+    autocmd FileType tex inoremap ,ul \begin{itemize}<Enter>\item<++><Enter><\end{itemize}
 
-" My cpp shortcuts
+" CPP 
     autocmd FileType cpp inoremap ,c <Esc>I//
     autocmd FileType cpp inoremap ,uc <Esc>I<Esc>xxx
     autocmd FileType cpp inoremap ,f for(int i = 0; i < <++>; i++)<Space>{<Enter><++><Enter>}
     autocmd FileType cpp inoremap ,if if(<++>)<Space>{<Enter><++><Enter>}
+    autocmd FileType cpp inoremap ,nl for(int i = 0; i < <++>; i++)<Space>{<Enter>for(int j = 0; j < <++>; j++)<Space>{<Enter><++><Enter>}<Enter>}
+
+" Python 
+    autocmd FileType py inoremap ,f for<Space><++><Space>in<Space><++>:<Enter>
+    autocmd FileType py inoremap ,c <Esc>I#
+
+" Templates for LaTeX, CPP and C files
     au bufnewfile *.cpp 0r /home/elliot/.vim/cpp_header.temp
     au bufnewfile *.c 0r /home/elliot/.vim/c_header.temp
-"  Comments for Python
-    autocmd FileType py inoremap ,c <Esc>I#
+    au bufnewfile *.tex 0r /home/elliot/.vim/tex_header.temp
+
+
