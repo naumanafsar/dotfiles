@@ -22,6 +22,36 @@
     set splitbelow
     set splitright
 
+" Cursor shape 
+    let &t_SI = "\<Esc>[6 q" 
+    let &t_SR = "\<Esc>[4 q" 
+    let &t_EI = "\<Esc>[2 q" 
+
+    autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd guibg=darkgray ctermbg=18 
+    autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=darkgray ctermbg=18 
+    colorscheme default 
+    set background=dark 
+    set ts=2 sw=2 et 
+    let g:indent_guides_auto_colors=0 
+    let g:indent_guides_guide_size=1 
+    let g:indent_guides_enable_on_vim_startup=1 
+
+
+" Airline theme 
+    let g:airline_theme='monochrome' 
+    let g:airline_skip_empty_sections=1 
+    if !exists('g:airline_symbols')   
+        let g:airline_symbols = {} 
+    endif 
+    let g:airline#extensions#tabline#enabled=1 
+    let g:airline#extensions#whitespace#enabled=0
+
+" Folds 
+    "set foldenable 
+    "set foldlevelstart=10 
+    "set foldnestmax=10 
+    "set foldmethod=syntax
+
 " Disable auto commenting on new lines
     autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
