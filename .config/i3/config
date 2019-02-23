@@ -22,7 +22,7 @@ font pango:System San Francisco Display 10
 
 # Basic Seting for i3-gaps
 for_window [class="^.*"] border pixel 3
-gaps inner 10
+gaps inner 15
 gaps outer 0 
 
 bindsym $mod+u          gaps inner current plus 5
@@ -40,13 +40,18 @@ for_window [title="video0 - mpv"] sticky enable
 
 bindysm $mod+c          exec --no-startup-id /home/elliot/.config/.scripts/camtoggle &&
 
+
+# #--- mpc shortcuts fo Music Player Daemon ---# #
+
+bindsym $mod+p          exec --no-startup-id /home/elliot/.config/.scripts/mpctoggle
+bindsym XF86AudioNext   exec --no-startup-id /home/elliot/.config/.scripts/mpcnext
+bindsym XF86AudioPrev   exec --no-startup-id /home/elliot/.config/.scripts/mpcprev
+
 # Screen Record
 bindsym $mod+q          exec --no-startup-id /home/elliot/.config/.scripts/screenrec
 
 # Start the terminal
 bindsym $mod+Return     exec $term
-
-bindsym $mod+Print      exec --no-startup-id notify-send "Hello World"
 
 #lock i3
 bindsym $mod+x          exec /home/elliot/.config/.scripts/i3lockscreen
@@ -105,16 +110,16 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: "
-set $ws2 "2: "
-set $ws3 "3: "
-set $ws4 "4: "
-set $ws5 "5: "
+set $ws1 "1:"
+set $ws2 "2:"
+set $ws3 "3:"
+set $ws4 "4:"
+set $ws5 "5:"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10: "
+set $ws10 "10:"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -227,8 +232,6 @@ bindsym XF86MonBrightnessDown exec light -U 5
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
 
 # Start cmus terminal music player
 bindsym $mod+c exec cmus -e $term
