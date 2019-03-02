@@ -17,6 +17,7 @@
     set incsearch       " Search as you type
     set ignorecase      " Case insensitve search
     set nofoldenable    " Make sure no lines are folded
+"    set commentstring=# %s " Global Commenting for undetected files
 
 " Split open at at the bottom and right!
     set splitbelow
@@ -51,6 +52,12 @@
     "set foldlevelstart=10 
     "set foldnestmax=10 
     "set foldmethod=syntax
+
+" Vim Live Preview
+    let g:livepreview_previewer = 'evince'
+
+" Convert code to HTML for my blog
+    map <F11> :so ~/.vim/autoload/blog.vim 
 
 " Disable auto commenting on new lines
     autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
@@ -100,7 +107,7 @@
 " Turning Vim into an IDE
 
 " Compile document
-    map <F6> :w! \| !compile <c-r>%<CR>
+    map <F6> :w! \| !compile <c-r>%<CR><CR>
 
 " Out file
     map <leader>o :!out <c-r>%<CR><CR>
@@ -109,12 +116,13 @@
     autocmd VimLeave *.tex !texclear %
 
 "  LaTeX 
+    autocmd FileType tex setlocal commentstring=% %s
     autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
     autocmd FileType tex inoremap ,toc \tableofcontents<Enter>
     autocmd FileType tex inoremap ,ct \center{}
     autocmd FileType tex inoremap ,c  <Esc>I%
     autocmd FileType tex inoremap ,cl \begin{<++>}<Enter><Enter>\end{<++>}
-    autocmd FileType tex inoremap ,lx \LaTeX
+    autocmd FileType tex inoremap ,lx \LaTeX{}
     autocmd FileType tex inoremap ,ab \begin{abstract}<Enter><++><Enter>\end{abstract}
     autocmd FileType tex inoremap ,s \section{<++>}<Enter><++>
     autocmd FileType tex inoremap ,sc \subsection{<++>}<Enter><++>
@@ -125,6 +133,7 @@
     autocmd FileType tex inoremap ,ul \begin{itemize}<Enter>\item<++><Enter><\end{itemize}
 
 " CPP 
+    autocmd FileType cpp setlocal commentstring=// %s
     autocmd FileType cpp inoremap ,c <Esc>I//
     autocmd FileType cpp inoremap ,uc <Esc>I<Esc>xxx
     autocmd FileType cpp inoremap ,f for(int i = 0; i < <++>; i++)<Space>{<Enter><++><Enter>}
