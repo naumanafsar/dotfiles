@@ -1,7 +1,16 @@
+call plug#begin('~/.vim/plugged')
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'scrooloose/nerdtree'
+    Plug 'sirVer/ultisnips'
+"    Plug 'honza/vim-snippets'
+    Plug 'lervag/vimtex'
+call plug#end()
+
+
 " Some Basics
     set number
     set relativenumber
-    execute pathogen#infect()
     set showcmd
     syntax on
     set bg=dark
@@ -18,6 +27,10 @@
     set ignorecase      " Case insensitve search
     set nofoldenable    " Make sure no lines are folded
 "    set commentstring=# %s " Global Commenting for undetected files
+
+" Source my ~/.vimrc
+    map <F2> !source ~/.vimrc 
+
 
 " Split open at at the bottom and right!
     set splitbelow
@@ -36,25 +49,6 @@
     let g:indent_guides_auto_colors=0 
     let g:indent_guides_guide_size=1 
     let g:indent_guides_enable_on_vim_startup=1 
-
-
-" Airline theme 
-    let g:airline_theme='monochrome' 
-    let g:airline_skip_empty_sections=1 
-    if !exists('g:airline_symbols')   
-        let g:airline_symbols = {} 
-    endif 
-    let g:airline#extensions#tabline#enabled=1 
-    let g:airline#extensions#whitespace#enabled=0
-
-" Folds 
-    "set foldenable 
-    "set foldlevelstart=10 
-    "set foldnestmax=10 
-    "set foldmethod=syntax
-
-" Vim Live Preview
-    let g:livepreview_previewer = 'evince'
 
 " Convert code to HTML for my blog
     map <F11> :so ~/.vim/autoload/blog.vim 
@@ -98,9 +92,6 @@
 
 " Spell check set to F6
     map <F5> :setlocal spell! spelllang=en_us<CR>
-    
-" A Beautifull file explorer
-    map <C-n> :NERDTreeToggle<CR>
 
 " Map the Esc key to Capslock!
     au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
@@ -114,6 +105,9 @@
 
 " Clear .tex build files when i leave VIM
     autocmd VimLeave *.tex !texclear %
+
+" NerdTree Toggle
+    map <leader>n :NERDTreeToggle<CR>
 
 "  LaTeX 
     autocmd FileType tex setlocal commentstring=% %s
@@ -148,5 +142,52 @@
     au bufnewfile *.cpp 0r /home/elliot/.vim/cpp_header.temp
     au bufnewfile *.c 0r /home/elliot/.vim/c_header.temp
     au bufnewfile *.tex 0r /home/elliot/.vim/tex_header.temp
+    au bufnewfile *.sh 0r /home/elliot/.vim/shell_header.temp
 
+" Plugins Settings
+    " air-line
+let g:airline_powerline_fonts = 1
 
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+" unicode symbols for Airline
+    let g:airline_left_sep = '»'
+    let g:airline_left_sep = '▶'
+    let g:airline_right_sep = '«'
+    let g:airline_right_sep = '◀'
+    let g:airline_symbols.linenr = '␊'
+    let g:airline_symbols.linenr = '␤'
+    let g:airline_symbols.linenr = '¶'
+    let g:airline_symbols.branch = '⎇'
+    let g:airline_symbols.paste = 'ρ'
+    let g:airline_symbols.paste = 'Þ'
+    let g:airline_symbols.paste = '∥'
+    let g:airline_symbols.whitespace = 'Ξ'
+
+" airline symbols
+    let g:airline_left_sep = ''
+    let g:airline_left_alt_sep = ''
+    let g:airline_right_sep = ''
+    let g:airline_right_alt_sep = ''
+    let g:airline_symbols.branch = ''
+    let g:airline_symbols.readonly = ''
+    let g:airline_symbols.linenr = '' 
+
+" UltiSnips
+
+    let g:UltiSnipsExpandTrigger="<tab>"
+    let g:UltiSnipsJumpForwardTrigger="<tab>"
+    let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+    let g:UltiSnipsListSnippets="<c-tab>"
+    let g:UltiSnipsEditSplit="vertical"
+    let g:UltiSnipsSnippetDirectories=['/home/elliot/UltiSnips']
+
+" vimtex
+
+    let g:tex_flavor='latex'
+    let g:vimtex_view_method='zathura'
+    let g:vimtex_quickfix_mode=0
+    set conceallevel=1
+    let g:tex_conceal='abdmg'
